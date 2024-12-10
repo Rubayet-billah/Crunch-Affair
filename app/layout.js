@@ -1,10 +1,10 @@
-import { Poppins } from "next/font/google";
+import { Poppins, Roboto_Serif } from "next/font/google";
 import "./globals.css";
 
-export const poppins = Poppins({
+export const robotoSerif = Roboto_Serif({
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-poppins",
+  variable: "--font-robotoSerif",
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
@@ -16,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={poppins.className + " " + "bg-zinc-100"}>
+      <body className={robotoSerif.className + " " + "bg-zinc-100"}>
         {children}
       </body>
     </html>

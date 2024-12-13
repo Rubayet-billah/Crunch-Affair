@@ -3,10 +3,11 @@ import CAImage from "../UI/CAImage";
 import artWorkCircle from "@/assets/artWorks/artWorkCircle.png";
 import artWorkCircle2 from "@/assets/artWorks/artWorkCircle2.png";
 import CustomContainer from "../UI/CustomContainer";
+import wavePair from "@/assets/artWorks/wavePair.png";
 
 const Contact = () => {
   return (
-    <div className="my-16">
+    <div className="relative py-16">
       <header className="py-10 lg:py-16">
         <div className="relative mx-auto w-fit">
           <span className="font-bold text-2xl lg:text-4xl relative z-[1] lg:px-6">
@@ -68,6 +69,9 @@ const Contact = () => {
           </section>
         </main>
       </CustomContainer>
+      <div className="absolute bottom-0 right-0 hidden max-w-1/2 lg:block">
+        <CAImage src={wavePair} alt="Wave Pair Image" />
+      </div>
     </div>
   );
 };

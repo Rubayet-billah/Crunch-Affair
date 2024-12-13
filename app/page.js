@@ -1,3 +1,4 @@
+import Contact from "@/components/home/Contact";
 import OurJourney from "@/components/home/OurJourney";
 import OurStores from "@/components/home/OurStores";
 import SignatureDish from "@/components/home/SignatureDish";
@@ -12,6 +13,7 @@ export default function HomePage() {
       <Speciality />
       <OurStores />
       <Testimonials />
+      <Contact />
     </main>
   );
 }

@@ -57,7 +57,7 @@ const MainFooter = async () => {
             <h3 className="text-2xl font-bold">Contact Information</h3>
             <div className="flex flex-col">
               <p>Craig Francis</p>
-              <p className="text-sm text-accent">Business Development Head</p>
+              <p className="text-sm text-neutral">Business Development Head</p>
             </div>
             <p className="flex items-center gap-2">
               <PhoneCall className="text-secondary" size={18} />{" "}
@@ -108,7 +108,7 @@ const MainFooter = async () => {
                   href={href}
                   target="_blank"
                   aria-label={label}
-                  className="p-2 duration-100 bg-white rounded-full hover:text-white text-secondary hover:bg-secondary"
+                  className="p-2 duration-100 bg-white rounded-full hover:text-white text-primary hover:bg-secondary"
                 >
                   <Icon size={18} />
                 </Link>

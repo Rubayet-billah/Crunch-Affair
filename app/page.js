@@ -1,3 +1,4 @@
+import Banner from "@/components/home/Banner";
 import Contact from "@/components/home/Contact";
 import OurJourney from "@/components/home/OurJourney";
 import OurStores from "@/components/home/OurStores";
@@ -9,6 +10,7 @@ import Footer from "@/components/shared/Footer";
 export default function HomePage() {
   return (
     <main>
+      <Banner />
       <OurJourney />
       <SignatureDish />
       <Speciality />
